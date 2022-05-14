@@ -1,0 +1,118 @@
+/* *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to right, green, red);
+
+}
+.anime{
+    display: flex;
+    justify-content: center;
+    margin-top: 50vh;
+}
+.anime button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 7s;
+    animation-delay: 0.5s;
+}
+
+@keyframes example {
+  0%   {background-color:red;border-radius:50%; left:0px; top:0px;}
+  25%  {background-color:yellow; border-radius:50%; color:red; left:200px; top:0px;}
+  50%  {background-color:blue; border-radius:50%; left:200px; top:200px;}
+  75%  {background-color:green; border-radius:50%; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+.anime button:hover{
+    color: red;
+    background: white;
+    border: 2px solid red;
+    cursor: pointer;
+}
+.container{
+    width: 550px;
+    background: white;
+    margin: 50vh 35vw;
+}
+.container header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid silver;
+    padding: 30px;
+}
+.title h3{
+    font-size: 30px;
+    font-weight: 700;
+}
+.right p{
+    font-size: 20px;
+}
+p, .btns{
+    padding: 20px;
+    font-size: 25px;
+    text-align: left;
+}
+ul, select{
+    padding: 20px;
+}
+li, select{
+    list-style: none;
+    padding: 10px;
+    font-size: 20px;
+}
+li label{
+    padding: 5px;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+}
+.btns button{
+    font-size: 20px;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 9px;
+}
+.next:hover{
+    background: white;
+    color: green;
+    border: 2px solid green;
+    
+}
+.next{
+    background: green;
+    border: none;
+    color: white;
+}
+.scorebod{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 550px;
+    background: white;
+    margin: 50vh 35vw;
+    padding: 15px;
+}
+.scorebod i{
+    font-size: 50px;
+    color: goldenrod;
+}
+.hide{
+    display: none;
+}
+
+ */
