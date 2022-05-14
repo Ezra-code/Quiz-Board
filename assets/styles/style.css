@@ -43,7 +43,7 @@ body{
     border: 2px solid red;
     cursor: pointer;
 }
-/* 
+
 .container{
     width: 550px;
     background: white;
@@ -78,6 +78,7 @@ li, select{
 li label{
     padding: 5px;
 }
+/* 
 .btns{
     display: flex;
     justify-content: center;
