@@ -1,4 +1,4 @@
-/* *{
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -43,6 +43,7 @@ body{
     border: 2px solid red;
     cursor: pointer;
 }
+/* 
 .container{
     width: 550px;
     background: white;
