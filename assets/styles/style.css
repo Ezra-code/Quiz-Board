@@ -78,7 +78,6 @@ li, select{
 li label{
     padding: 5px;
 }
-/* 
 .btns{
     display: flex;
     justify-content: center;
@@ -100,6 +99,8 @@ li label{
     border: none;
     color: white;
 }
+/* 
+
 .scorebod{
     display: flex;
     flex-direction: column;
