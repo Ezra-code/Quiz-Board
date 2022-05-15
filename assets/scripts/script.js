@@ -16,12 +16,12 @@ startBtn.addEventListener('click', function(){
     contEl.classList.remove('hide')
 })
 
-// submitEl.addEventListener('click', function(){
-//     contEl.classList.add('hide')
-//     scoreEl.classList.remove('hide')
-//     scoreQuiz()
-//     Message()
-// })
+submitEl.addEventListener('click', function(){
+    contEl.classList.add('hide')
+    scoreEl.classList.remove('hide')
+    scoreQuiz()
+    Message()
+})
 // function scoreQuiz(){
 //     let percent;
 //     for(i=0; i<choiceEl.length; i++){
