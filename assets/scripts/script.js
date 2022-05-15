@@ -22,57 +22,57 @@ submitEl.addEventListener('click', function(){
     scoreQuiz()
     Message()
 })
-// function scoreQuiz(){
-//     let percent;
-//     for(i=0; i<choiceEl.length; i++){
-//         if(choiceEl[i].checked){
-//             let choice = choiceEl[i].value 
-//             if(choice == 'correct'){
-//                 score.push(1)
-//                 score
-//             }else{
-//                 score.push(0)
-//                 score            
-//             }
-//         }
-//     }
+function scoreQuiz(){
+    let percent;
+    for(i=0; i<choiceEl.length; i++){
+        if(choiceEl[i].checked){
+            let choice = choiceEl[i].value 
+            if(choice == 'correct'){
+                score.push(1)
+                score
+            }else{
+                score.push(0)
+                score            
+            }
+        }
+    }
 
-//     for(i=0; i<choiceTwo.length; i++){
-//         if(choiceTwo[i].checked){
-//             let choice = choiceTwo[i].value 
-//             if(choice == 'correct'){
-//                 score.push(1)
-//                 score
-//             }else{
-//                 score.push(0)
-//                 score
-//             }
-//         }
-//     }
+    for(i=0; i<choiceTwo.length; i++){
+        if(choiceTwo[i].checked){
+            let choice = choiceTwo[i].value 
+            if(choice == 'correct'){
+                score.push(1)
+                score
+            }else{
+                score.push(0)
+                score
+            }
+        }
+    }
 
-//     for(i=0; i<choiceThree.length; i++){
-//         if(choiceThree[i].checked){
-//             let choice = choiceThree[i].value 
-//             if(choice == 'correct'){
-//                 score.push(1)
-//                 score
-//             }else{
-//                 score.push(0)
-//                 score
+    for(i=0; i<choiceThree.length; i++){
+        if(choiceThree[i].checked){
+            let choice = choiceThree[i].value 
+            if(choice == 'correct'){
+                score.push(1)
+                score
+            }else{
+                score.push(0)
+                score
                 
-//             }
-//         }
-//     }
+            }
+        }
+    }
 
-//     for(i=0; i<score.length; i++){
-//         sum += score[i]
-//         sum
-//         result.innerHTML = sum
-//     }
-//     percent = Math.round((sum * 100) / 3)
-//     percent
-//     percentEl.innerHTML = percent + "%"
-// }
+    for(i=0; i<score.length; i++){
+        sum += score[i]
+        sum
+        result.innerHTML = sum
+    }
+    percent = Math.round((sum * 100) / 3)
+    percent
+    percentEl.innerHTML = percent + "%"
+}
 
 // function Message(){
 //     switch(sum){
