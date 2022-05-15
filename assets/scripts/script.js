@@ -50,19 +50,19 @@ function scoreQuiz(){
         }
     }
 
-    // for(i=0; i<choiceThree.length; i++){
-    //     if(choiceThree[i].checked){
-    //         let choice = choiceThree[i].value 
-    //         if(choice == 'correct'){
-    //             score.push(1)
-    //             score
-    //         }else{
-    //             score.push(0)
-    //             score
+    for(i=0; i<choiceThree.length; i++){
+        if(choiceThree[i].checked){
+            let choice = choiceThree[i].value 
+            if(choice == 'correct'){
+                score.push(1)
+                score
+            }else{
+                score.push(0)
+                score
                 
-    //         }
-    //     }
-    // }
+            }
+        }
+    }
 
     for(i=0; i<score.length; i++){
         sum += score[i]
