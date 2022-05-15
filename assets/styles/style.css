@@ -88,13 +88,13 @@ li label{
     cursor: pointer;
     border-radius: 9px;
 }
-.next:hover{
+.submit:hover{
     background: white;
     color: green;
     border: 2px solid green;
     
 }
-.next{
+.submit{
     background: green;
     border: none;
     color: white;
