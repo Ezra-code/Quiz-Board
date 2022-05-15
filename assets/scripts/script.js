@@ -37,18 +37,18 @@ function scoreQuiz(){
         }
     }
 
-    // for(i=0; i<choiceTwo.length; i++){
-    //     if(choiceTwo[i].checked){
-    //         let choice = choiceTwo[i].value 
-    //         if(choice == 'correct'){
-    //             score.push(1)
-    //             score
-    //         }else{
-    //             score.push(0)
-    //             score
-    //         }
-    //     }
-    // }
+    for(i=0; i<choiceTwo.length; i++){
+        if(choiceTwo[i].checked){
+            let choice = choiceTwo[i].value 
+            if(choice == 'correct'){
+                score.push(1)
+                score
+            }else{
+                score.push(0)
+                score
+            }
+        }
+    }
 
     // for(i=0; i<choiceThree.length; i++){
     //     if(choiceThree[i].checked){
