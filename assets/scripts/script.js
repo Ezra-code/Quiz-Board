@@ -74,20 +74,20 @@ function scoreQuiz(){
     percentEl.innerHTML = percent + "%"
 }
 
-// function Message(){
-//     switch(sum){
-//         case 1:
-//             message.innerHTML = "Below average"
-//         break;
+function Message(){
+    switch(sum){
+        case 1:
+            message.innerHTML = "Below average"
+        break;
 
-//         case 2:
-//             message.innerHTML = "Good perfomance"
-//         break;
-//         case 3:
-//             message.innerHTML = "Excellent perfomance"
-//         break;
-//         default:
-//             message.innerHTML = "sorry"
-//     }
+        case 2:
+            message.innerHTML = "Good perfomance"
+        break;
+        case 3:
+            message.innerHTML = "Excellent perfomance"
+        break;
+        default:
+            message.innerHTML = "sorry"
+    }
     
-// }
+}
