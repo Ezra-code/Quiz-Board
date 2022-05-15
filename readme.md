@@ -1,7 +1,7 @@
 # Quiz Board
  ## By Ezra Njeru
 ## Screenshot
- ![image](./assets/images/score.png)
+ ![image](./assets/images/snapshot.png)
  ## Table of Content
  - [Description](#description)
  - [Features](#features)
