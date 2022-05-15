@@ -46,8 +46,10 @@ body{
 
 .container{
     width: 550px;
+    height: 500px;
     background: white;
     margin: 50vh 35vw;
+    overflow: scroll;
 }
 .container header{
     display: flex;
