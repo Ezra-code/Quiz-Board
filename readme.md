@@ -12,7 +12,7 @@
  - [Licence](#licence)
  - [Authors Info](#Authors-Info)
  ## Description
- <p>This project is a web application for a Quiz Board that shows details about the services it offers, has information about the moving company, a portfolio section and a form that enables users to send their requests and concerns to Quick Movers</p>
+ <p>This project is a web application for a Quiz Board that grades users according to their knowledge of web fundamentals</p>
 
 ## Features
 
