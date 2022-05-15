@@ -8,13 +8,13 @@ let choiceThree = document.getElementsByName('choice3')
 let message = document.getElementById('message-el')
 let result = document.getElementById('result')
 let percentEl = document.querySelector("#percent-el")
-let score = [];
-let sum = 0
+// let score = [];
+// let sum = 0
 
-// startBtn.addEventListener('click', function(){
-//     startBtn.classList.add('hide')
-//     contEl.classList.remove('hide')
-// })
+startBtn.addEventListener('click', function(){
+    startBtn.classList.add('hide')
+    contEl.classList.remove('hide')
+})
 
 // submitEl.addEventListener('click', function(){
 //     contEl.classList.add('hide')
