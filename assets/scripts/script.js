@@ -1,15 +1,15 @@
-// let startBtn = document.getElementById('start-btn')
-// let contEl = document.getElementById('cont-el')
-// let submitEl = document.getElementById('submit')
-// let scoreEl = document.getElementById('score')
-// let choiceEl = document.getElementsByName('choice')
-// let choiceTwo = document.getElementsByName('choice2')
-// let choiceThree = document.getElementsByName('choice3')
-// let message = document.getElementById('message-el')
-// let result = document.getElementById('result')
-// let percentEl = document.querySelector("#percent-el")
-// let score = [];
-// let sum = 0
+let startBtn = document.getElementById('start-btn')
+let contEl = document.getElementById('cont-el')
+let submitEl = document.getElementById('submit')
+let scoreEl = document.getElementById('score')
+let choiceEl = document.getElementsByName('choice')
+let choiceTwo = document.getElementsByName('choice2')
+let choiceThree = document.getElementsByName('choice3')
+let message = document.getElementById('message-el')
+let result = document.getElementById('result')
+let percentEl = document.querySelector("#percent-el")
+let score = [];
+let sum = 0
 
 // startBtn.addEventListener('click', function(){
 //     startBtn.classList.add('hide')
